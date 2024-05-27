@@ -18,6 +18,8 @@
 (function() {
   'use strict';
 
+  console.log('remove-youtube-header')
+
   const isYouTubeVideo = /(?:m\.)?youtube\.com\/watch\?v=([a-zA-Z0-9_-]+)(?:&.*|$)/i.test(window.location.href)
 
   function applyStyle() {
